@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+<head>
+    <meta charset="UTF-8">
+    <title>MobileDesigner - zajebiste strony kurwa</title>
+    <link rel="stylesheet" href="stylesheet/main.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Oswald&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+
+<!--loader-->
+<div class="loader-wrapper">
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(window).on("load", function () {
+        $(".loader-wrapper").fadeOut("slow");
+    });
+</script>
+
+<!--header-->
+
+
+<!--vide-->
+<header class="header-video-wrapper" data-vide-bg="./assets/background-video.mp4">
+    <div class="video-overlay"></div>
+
+    <!--content-->
+    <div class="header-content">
+        <nav>
+            <a class="logo">
+                <img src="./assets/logo-www.png" alt="Mobile Design"/>
+            </a>
+
+            <ul>
+                <li><a href="#">Start</a></li>
+                <li><a href="#">O nas</a></li>
+                <li><a href="#">Doświadczenie</a></li>
+                <li><a href="#">Aplikacje mobilne</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <div class="content-text">
+            <h1>Mobilnie, szybko, bezpiecznie - to my!</h1>
+        </div>
+    </div>
+
+    <script src="./assets/jquery.vide.min.js"></script>
+</header>
+
+
+<!--strony-->
+<div class="section-wrapper">
+</div>
+
+</body>
+</html>
